@@ -80,14 +80,26 @@ main{
     color: #FFFFFF;
 }
 
-.arrow-box{
+.main-info-btn:after{
+    content:url(https://cdn.glitch.global/26d8d569-78b4-4482-a88a-246677ed1e1b/icon-arrow-right.svg?v=1659126710640);
     background: #D5966C;
     width: 56px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items:center;
     
 }
+
+.main-info-btn a:hover{
+    background: #D5966C;
+    cursor: pointer;
+}
+
+.main-info-btn:hover::after{
+    background: #151515;
+    cursor: pointer;
+}
+
 
 /* ---------------------------------------------------- */
                   /* SECTION ONE  */
