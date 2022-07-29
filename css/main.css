@@ -21,7 +21,7 @@ main{
     /* outline: solid red; */
     display: flex;
     flex-direction: column;
-    background-image: url(./assets/mobile/image-hero.jpg);
+    background-image: url(../assets/mobile/image-hero.jpg);
     background-repeat: no-repeat;    
     height:630px;
 }
