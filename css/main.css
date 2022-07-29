@@ -219,9 +219,10 @@ svg{
     margin-left: 32px;        
 }
 
-svg:hover path{
+div svg:hover #facebook,
+div svg:hover #instagram,
+div svg:hover #twitter{
     cursor: pointer;
-    color: #D5966C;
-    
+    fill: #D5966C;    
 }
 
