@@ -138,6 +138,13 @@ footer img{
   margin-right: 20px;
 }
 
+div svg:hover #facebook,
+div svg:hover #instagram,
+div svg:hover #twitter{
+    cursor: pointer;
+    fill: #FFFFFF;    
+}
+
 
 
 
