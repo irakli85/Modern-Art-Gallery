@@ -17,6 +17,7 @@ body{
   background: url("../assets/mobile/image-map.png");
   background-repeat:no-repeat;
   height: 550px;
+  background-size: cover;
 }
 
 .back-btn{

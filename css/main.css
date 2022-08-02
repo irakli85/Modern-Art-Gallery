@@ -27,6 +27,7 @@ body{
     height: 240px;
     background: url("../assets/mobile/image-hero.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .main-heading{    
