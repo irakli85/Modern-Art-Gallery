@@ -147,5 +147,68 @@ div svg:hover #twitter{
 }
 
 
+/* TABLET */
+
+@media screen and (min-width: 768px){
+
+  /* SECTION ONE */
+
+  .section-one{
+    background: url("../assets/tablet/image-map.png");
+    background-repeat:no-repeat;
+    height: 600px;
+    background-size: cover;
+  }
+
+  .back-to-main{
+    margin-left: 5.07%;
+  }
+
+  /* SECTION TWO */
+
+  .section-two{
+    flex-direction: row;
+  }
+
+  .section-two h1,
+  .section-two-info{
+    margin-top: 88px;
+  }
+
+  .section-two-info{
+    margin-left: 68px;
+    margin-right: 40px;
+  }
+
+  .section-two-info h2{
+    margin-top: 0;
+  }
+
+  /* LOCATION FOOTER TABLET */
+
+  footer{
+    flex-direction: row;
+    height: 216px;
+  }
+
+  .footer-logo{
+    margin-left: 5.07%;
+    margin-top: 56px;
+  }
+
+  .footer-text{
+    width: 36.58%;
+    margin-right: 0;
+    margin-top: 56px;
+  }
+
+  .footer-social-icons{
+    margin-top: 56px;
+    margin-left: 17.31%;
+  }
+
+
+}
+
 
 
