@@ -23,8 +23,13 @@ body{
     padding-top: 32px;
 }
 
-.main-heading{
-    
+.image-box{
+    height: 240px;
+    background: url("../assets/mobile/image-hero.jpg");
+    background-repeat: no-repeat;
+}
+
+.main-heading{    
     font-family: 'Big Shoulders Display';
     font-weight: 900;
     font-size: 60px;
@@ -235,3 +240,57 @@ div svg:hover #twitter{
     fill: #D5966C;    
 }
 
+
+/* ---------------------------------------------------- */
+                  /* TABLET  */
+/* ---------------------------------------------------- */
+
+@media screen and (min-width: 768px){
+
+ /* MAIN TABLET */
+
+    main{
+        position: relative;
+    }
+
+    .image-box{
+        height: 700px;
+        background: url("../assets/tablet/image-hero.jpg");
+        background-repeat: no-repeat;
+    }
+    
+    .main-info{
+        position: absolute;
+        top: 121px;
+        left: 383px;
+    }
+
+    /* TABLET - SECTION ONE */
+
+    .section-one{
+        flex-direction: row;
+    }
+
+    .section-one-img{
+        order: 2;
+        width: 398px;
+        height: 400px;
+    }
+
+    .section-one-info-box{
+        order: 1;
+        margin-right: 68px;
+    }
+
+    /* TABLET - SECTION TWO */
+
+    .section-two{
+        flex-direction: row;
+    }
+
+    .section-two-main-img{
+        width: 398px;
+        height: 720px;
+    }
+
+}
