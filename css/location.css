@@ -19,6 +19,124 @@ body{
   height: 550px;
 }
 
-.section-one a{
-  
+.back-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  width: 56px;
+  height: 72px;
+  background: #D5966C;
 }
+
+.back-to-main{
+  display: flex;
+}
+
+.back-to-main:after{
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+  width: 208px;
+  height: 72px;
+  background: #151515;
+  content: "BACK TO HOME";
+
+  font-family: 'Big Shoulders Display';
+  font-weight: 800;
+  font-size: 20px;
+  letter-spacing: 3.63636px;
+  color: #FFFFFF;
+}
+
+/* LOCATION SECTION TWO */
+
+.section-two{
+  display: flex;
+  flex-direction: column;
+  height: 439px;  
+  background: #151515;
+  /* outline: solid red; */
+}
+
+.section-two h1{
+  font-family: 'Big Shoulders Display';
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 45px;
+  color: #FFFFFF;
+  margin-left: 4.26%;
+  margin-top: 48px;
+}
+
+.section-two-info h2{
+  font-family: 'Big Shoulders Display';
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #D5966C;
+  margin-left: 4.26%;
+  margin-top: 48px;
+}
+
+.section-two-adress{
+  font-family: 'Outfit';
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  color: #FFFFFF;
+  margin-left: 4.26%;
+  margin-top: 20px;
+}
+
+.section-two-location{
+  font-family: 'Outfit';
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  color: #FFFFFF;
+  margin-left: 4.26%;
+  margin-right: 4.26%;
+  margin-top: 20px;
+}
+
+
+/* LOCATION-FOOTER */
+
+footer{
+  display: flex;
+  flex-direction: column;
+  height: 336px;
+  background: #D5966C;
+}
+
+footer img{
+  width: 110.05px;
+  height: 40px;
+  margin-left: 8.53%;
+  margin-top: 48px;
+}
+
+.footer-text{
+  font-family: 'Outfit';
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  color: #151515;
+  margin-left: 8.53%;
+  margin-right: 8.53%;
+  margin-top: 20px;
+}
+
+.footer-social-icons{
+  margin-left: 8.53%;
+  margin-top: 38px;
+}
+
+.footer-social-icons svg{
+  margin-right: 20px;
+}
+
+
+
+

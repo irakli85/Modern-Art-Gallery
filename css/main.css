@@ -19,15 +19,18 @@ body{
 
 main{
     /* outline: solid red; */
-    display: flex;
-    flex-direction: column;
-    background-image: url(../assets/mobile/image-hero.jpg);
-    background-repeat: no-repeat;    
-    height:630px;
+    
+}
+.img-hero{
+    /* outline: solid red; */
+}
+
+.main-info{
+    padding-top: 32px;
 }
 
 .main-heading{
-    padding-top: 272px; /*9.67%*/
+    
     font-family: 'Big Shoulders Display';
     font-weight: 900;
     font-size: 60px;
