@@ -22,6 +22,11 @@ body{
   background-size: cover;
 }
 
+.back-link{
+  display: block;
+
+}
+
 .back-btn{
   display: flex;
   justify-content: center;
@@ -51,11 +56,11 @@ body{
   color: #FFFFFF;
 }
 
-/* .section-one a:hover{
+/* .back-link div:hover{
   background: #151515;
-}
+} */
 
-.back-to-main:after:hover{
+/* .back-to-main:after:hover{
   background: #D5966C;
 } */
 
