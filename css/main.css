@@ -23,6 +23,10 @@ body{
     padding-top: 32px;
 }
 
+.image-hero{
+    display: none;
+}
+
 .image-box{
     height: 240px;
     background: url("../assets/mobile/image-hero.jpg");
@@ -336,4 +340,51 @@ div svg:hover #twitter{
         margin-left: 17.31%;        
     }    
 
+}
+
+
+/* ---------------------------------------------------- */
+                  /* DESKTOP  */
+/* ---------------------------------------------------- */
+
+@media screen and (min-width: 1440px) {
+
+    .img-hero{
+        display: block;
+        margin-left: 450px;
+    }
+
+    .image-box{
+        background: #151515;
+        width: 990px;
+        height: 800px;        
+    }
+
+    .main-info{
+        display: flex;
+        top: 110px;
+        left: 165px;
+        
+    }
+
+    .main-heading{
+        color: #FFFFFF;
+        mix-blend-mode: difference;        
+        width: 514px;
+        margin: 0;
+
+        font-weight: 900;
+        font-size: 96px;
+        line-height: 88px;
+    }
+
+    .main-info-box{
+        width: 350px;
+        margin-top: 0;
+        margin-left: 246px;        
+    }
+    
+
+    
+    
 }
