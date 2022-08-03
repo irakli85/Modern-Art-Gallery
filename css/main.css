@@ -399,6 +399,9 @@ div svg:hover #twitter{
    }
 
    .section-one-info-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 350px;
     
    }
@@ -406,12 +409,14 @@ div svg:hover #twitter{
    .section-one-heading{
         font-size: 60px;
         line-height: 60px;
+        
    }
 
    .section-one-info-text{
     font-weight: 300;
     font-size: 22px;
     line-height: 32px;
+    margin-top: 32px;
    }
     
 
@@ -436,6 +441,14 @@ div svg:hover #twitter{
     margin-left: 48px;
     margin-top: 32px;
     margin-right: 47px;
+   }
+
+   .section-two-box{
+    margin-left: 30px;
+   }
+
+   .section-two-info-box{
+    margin-top: 30px;
    }
 
 
