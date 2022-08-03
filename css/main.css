@@ -393,16 +393,16 @@ div svg:hover #twitter{
    /* SECTION ONE - DESKTOP */
 
    .section-one{
-    justify-content: space-between;
-    margin-left: 11.45%;
-    margin-right: 11.45%;
+        justify-content: space-between;
+        margin-left: 11.45%;
+        margin-right: 11.45%;
    }
 
    .section-one-info-box{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 350px;
     
    }
 
@@ -413,10 +413,10 @@ div svg:hover #twitter{
    }
 
    .section-one-info-text{
-    font-weight: 300;
-    font-size: 22px;
-    line-height: 32px;
-    margin-top: 32px;
+        font-weight: 300;
+        font-size: 22px;
+        line-height: 32px;
+        margin-top: 32px;
    }
     
 
@@ -427,29 +427,30 @@ div svg:hover #twitter{
         margin-right: 11.45%;       
    }
 
+  
    .section-two-heading{
-    font-size: 60px;
-    line-height: 60px;
+        font-size: 60px;
+        line-height: 60px;
 
-    margin-left: 48px;
-    margin-top: 65px
+        margin-left: 48px;
+        margin-top: 65px
    }
 
    .section-two-text{
-    font-size: 22px;
-    line-height: 32px;
-    margin-left: 48px;
-    margin-top: 32px;
-    margin-right: 47px;
+        font-size: 22px;
+        line-height: 32px;
+        margin-left: 48px;
+        margin-top: 32px;
+        margin-right: 47px;
    }
 
    .section-two-box{
-    margin-left: 30px;
+        margin-left: 30px;
    }
 
    .section-two-info-box{
-    margin-top: 30px;
-    height: 377px;
+        margin-top: 30px;
+        height: 377px;
    }
 
 
