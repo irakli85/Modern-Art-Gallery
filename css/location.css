@@ -13,6 +13,8 @@ body{
     height: auto;
 }
 
+/* LOCATION SECTION ONE - MOBILE */
+
 .section-one{
   background: url("../assets/mobile/image-map.png");
   background-repeat:no-repeat;
@@ -57,7 +59,7 @@ body{
   background: #D5966C;
 } */
 
-/* LOCATION SECTION TWO */
+/* LOCATION SECTION TWO MOBILE */
 
 .section-two{
   display: flex;
@@ -111,7 +113,7 @@ body{
 }
 
 
-/* LOCATION-FOOTER */
+/* LOCATION-FOOTER MOBILE */
 
 footer{
   display: flex;
@@ -159,7 +161,7 @@ div svg:hover #twitter{
 
 @media screen and (min-width: 768px){
 
-  /* SECTION ONE */
+  /* LOCATIO SECTION ONE TABLET */
 
   .section-one{
     background: url("../assets/tablet/image-map.png");
@@ -172,7 +174,7 @@ div svg:hover #twitter{
     margin-left: 5.07%;
   }
 
-  /* SECTION TWO */
+  /* LOCATION SECTION TWO TABLET*/
 
   .section-two{
     flex-direction: row;
@@ -218,5 +220,80 @@ div svg:hover #twitter{
 
 }
 
+/* LOCATION - DESCTOP */
+@media screen and (min-width: 1440px){
 
+/* LOCATION SECTION ONE - DESCTOP */
+.section-one{
+  background: url("../assets/desktop/image-map.png");
+}
+
+.back-to-main{
+  margin-left: 11.45%;
+}
+
+
+/* LOCATION SECTION TWO - DESCTOP */
+
+.section-two{
+  height: 548px;
+}
+
+.section-two h1{
+  margin-left: 11.45%;
+  margin-top: 104px;
+  font-size: 70px;
+  line-height: 70px;
+  width: 350px;  
+}
+
+.section-two-info{
+  margin-left: 220px;
+  margin-top: 104px;  
+}
+
+.section-two-info h2{
+  font-weight: 900;
+  font-size: 36px;
+  margin-left: 0;
+}
+
+.section-two-adress{
+  font-size: 22px;
+  line-height: 32px;
+  margin-left: 0;
+}
+
+.section-two-location{
+  font-size: 22px;
+  line-height: 32px;
+  margin-left: 0;
+  width: 540px;
+}
+/* LOCATION FOOTER - DESCTOP */
+footer{
+  height: 244px;
+}
+
+.footer-logo{
+  width: 159.57px;
+  height: 58px;
+  margin-left: 11.45%;
+  margin-top: 80px;
+}
+
+.footer-text{
+  font-size: 18px;
+  line-height: 28px;
+  width: 430px;
+  margin-left: 10%;
+  margin-top: 80px;
+}
+
+.footer-social-icons {
+  margin-top: 80px;
+  margin-left: 19.44%;
+}
+
+}
 
