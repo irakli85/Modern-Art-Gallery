@@ -97,12 +97,12 @@ body{
 
 .main-info-box a:hover{
     background: #D5966C;
-    cursor: pointer;
+    
 }
 
 .main-info-link:hover::after{
     background: #151515;
-    cursor: pointer;
+    
 }
 
 

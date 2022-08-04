@@ -37,7 +37,7 @@ body{
   letter-spacing: 3.63636px;
   color: #FFFFFF;
   margin-left: -4px;
-  
+    
 }
 
 .main-info-link:before{
@@ -49,6 +49,14 @@ body{
   height: 72px;
   background: #D5966C;   
 }
+
+.main-info-link div:hover{
+  background: #D5966C;
+}
+.main-info-link:hover::before{
+  background: #151515;
+}
+
 
 
 
