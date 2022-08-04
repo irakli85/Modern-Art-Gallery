@@ -68,7 +68,7 @@ body{
     align-items: center;
     justify-content: center;
     background: #151515;
-    width: 260px;
+    width: 272px;
     height: 72px;    
     font-family: 'Big Shoulders Display';
     font-weight: 800;
@@ -86,7 +86,7 @@ body{
 .main-info-link:after{
     content:url(https://cdn.glitch.global/26d8d569-78b4-4482-a88a-246677ed1e1b/icon-arrow-right.svg?v=1659126710640);
     background: #D5966C;
-    width: 56px;
+    width: 57px;
     height: 72px;
     display: flex;
     justify-content: center;
