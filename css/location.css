@@ -23,38 +23,41 @@ body{
   background-size: cover;
 }
 
-.main-info-btn{
-  display: inline-flex;
+.back-btn{
+  display: flex;
+}
+
+.back-arrow{  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 56px;
+  height: 72px;
+  background: #D5966C;
+   
+}
+
+.location{
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 208px;
   height: 72px;
   background: #151515;
-
+  
   font-family: 'Big Shoulders Display';
   font-weight: 800;
   font-size: 20px;
   letter-spacing: 3.63636px;
   color: #FFFFFF;
-  margin-left: -4px;
-    
 }
 
-.main-info-link:before{
-  display: inline-flex;
-  justify-content: center;
-  align-items:center;
-  content: url("../assets/icon-arrow-left.svg");
-  width: 56px;
-  height: 72px;
-  background: #D5966C;   
-}
-
-.main-info-link div:hover{
-  background: #D5966C;
-}
-.main-info-link:hover::before{
+.section-one a:hover .back-arrow{
   background: #151515;
+}
+
+.section-one a:hover .location{
+  background: #D5966C
 }
 
 
@@ -171,7 +174,7 @@ div svg:hover #twitter{
     background-size: cover;
   }
 
-  .main-info-link{
+  .back-btn{
     margin-left: 5.07%;
   }
 
@@ -229,7 +232,7 @@ div svg:hover #twitter{
   background: url("../assets/desktop/image-map.png");
 }
 
-.main-info-link{
+.back-btn{
   margin-left: 11.45%;
 }
 
